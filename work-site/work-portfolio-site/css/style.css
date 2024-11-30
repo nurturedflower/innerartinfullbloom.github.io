@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond&family=Crimson+Text&family=Englebert&family=Karma&family=Lobster&family=Lugrasimo&family=Mate&family=Patrick+Hand&family=Patrick+Hand+SC&family=Sofia&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f8e7d1;
+}
+
+#navbar {
+    background-color: #EDBEA6;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F84941;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-family: "Sofia", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#navbar a:hover {
+    background-color: #f8e7d1;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #f8e7d1;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #f8d6c5;
+}
+
+#hero {
+    background-image: url("../images/center_hero.png");
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: white;
+    font-family: "Patrick Hand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero a {
+    display: inline-block;
+    background-color: #EDBEA6;
+    color: #F84941;
+    text-decoration: none;
+    padding: 22px;
+    margin: 5vh 2vw 10vh;
+}
+
+#hero a:hover {
+    background-color: #f8d6c5;
+}
+
+.spacer {
+    height: 10vh;
+}
+
+#footer {
+    background-color: #EDBEA6;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #F84941;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
