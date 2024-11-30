@@ -24,25 +24,22 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #F84941;
-    padding: 76px 32px;
+    padding: 72px 32px;
 }
 
 #navbar #logo {
     margin-right: auto;
-    font-family: "Sofia", cursive;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
     padding-top: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 12px;
 }
 
 #navbar #logo img {
-    width: 132px;
+    width: 134px;
 }
 
 #navbar a:hover {
     background-color: #f8e7d1;
+    margin: 0px;
 }
 
 .dropdown-container {
