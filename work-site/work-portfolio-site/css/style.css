@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond&family=Crimson+Text&family=Englebert&family=Karma&family=Lobster&family=Lugrasimo&family=Mate&family=Patrick+Hand&family=Patrick+Hand+SC&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond&family=Crimson+Text&family=Englebert&family=Karma&family=Lobster&family=Lugrasimo&family=Mate&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&family=Patrick+Hand+SC&family=Sofia&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,6 +14,9 @@ body {
 }
 
 #navbar {
+    font-family: "Patrick Hand", serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #EDBEA6;
     display: flex;
     align-items: center;
@@ -24,7 +27,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #F84941;
-    padding: 72px 32px;
+    padding: 48px 32px;
 }
 
 #navbar #logo {
@@ -34,7 +37,7 @@ body {
 }
 
 #navbar #logo img {
-    width: 134px;
+    width: 86px;
 }
 
 #navbar a:hover {
@@ -95,19 +98,157 @@ body {
 
 #hero a {
     display: inline-block;
-    background-color: #EDBEA6;
-    color: #F84941;
+    background-color: #F84941;
+    color: #f8e7d1;
     text-decoration: none;
     padding: 22px;
     margin: 5vh 2vw 10vh;
+    border-radius: 10px;
 }
 
 #hero a:hover {
-    background-color: #f8d6c5;
+    background-color: #ac352e;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background-color: #EDBEA6;
+    padding: 48px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-top: 5px solid #ac6846;
+    border-bottom: 5px solid #ac6846;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+    font-family: "Patrick Hand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.side-by-side .text-container h2 {
+    font-size: 28px;
+}
+
+.side-by-side .text-container p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.side-by-side .text-container a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #F84941;
+    color: #f8e7d1;
+    padding: 18px 16px;
+    border-radius: 10px;
+}
+
+.side-by-side .text-container a:hover {
+    background-color: #ac352e;
+}
+
+.center-column {
+    background-color: #EDBEA6;
+    width: 500px;
+    margin: 0px auto;
+    padding: 0px 24px;
+    border-radius: 24px;
+}
+
+.center-column h1 {
+    font-family: "Patrick Hand", serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    padding-top: 24px;
+    margin-top: 36px;
+}
+
+.center-column img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    padding: 16px;
+}
+
+.center-column p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 24px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout h1 {
+    font-family: "Patrick Hand", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 38px;
+}
+
+#layout h3 {
+    font-family: "Patrick Hand", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 24px;
+}
+
+#layout p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 24px;
 }
 
 .spacer {
-    height: 10vh;
+    height: 1vh;
 }
 
 #footer {
