@@ -247,6 +247,37 @@ body {
     margin-bottom: 24px;
 }
 
+.web-dev-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+}
+
+.web-dev-gallery .button {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 24px;
+}
+
+.web-dev-gallery a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f8e7d1;
+    background-color: #F84941;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.web-dev-gallery a:hover {
+    background-color: #ac352e;
+}
+
+.web-dev-gallery img {
+    width: 100%;
+}
+
 .spacer {
     height: 1vh;
 }
