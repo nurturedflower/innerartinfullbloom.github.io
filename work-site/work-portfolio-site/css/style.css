@@ -15,8 +15,9 @@ body {
 
 #navbar {
     font-family: "Patrick Hand", serif;
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
+    font-size: 16px;
     background-color: #EDBEA6;
     display: flex;
     align-items: center;
@@ -27,7 +28,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #F84941;
-    padding: 48px 32px;
+    padding: 43px 32px;
 }
 
 #navbar #logo {
@@ -37,7 +38,7 @@ body {
 }
 
 #navbar #logo img {
-    width: 86px;
+    width: 78px;
 }
 
 #navbar a:hover {
