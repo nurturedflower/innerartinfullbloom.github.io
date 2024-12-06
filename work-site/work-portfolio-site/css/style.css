@@ -93,7 +93,7 @@ body {
     text-align: center;
     color: white;
     font-family: "Patrick Hand", serif;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -265,6 +265,9 @@ body {
 }
 
 .web-dev-gallery a {
+    font-family: "Patrick Hand", serif;
+    font-weight: bold;
+    font-style: normal;
     text-decoration: none;
     display: inline-block;
     color: #f8e7d1;
