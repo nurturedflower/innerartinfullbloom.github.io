@@ -380,6 +380,10 @@ body {
     }
 
     #hero .hero-content h2 {
-        font-size: 32px;
+        font-size: 34px;
+    }
+
+    #hero .hero-content h4 {
+        font-size: 20px;
     }
 }
