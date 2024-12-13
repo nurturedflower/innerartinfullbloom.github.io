@@ -214,7 +214,7 @@ body {
 }
 
 #layout {
-    max-width: 800px;
+    max-width: 650px;
     margin: 48px auto;
     text-align: center;
 }
@@ -325,6 +325,47 @@ body {
     width: 100%;
     padding: 18px;
     border-radius: 32px;
+}
+
+form {
+    background-color: #EDBEA6;
+    padding: 36px;
+    border: 2px solid #ac6846;
+    border-radius: 10px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ac6846;
+    margin-bottom: 16px;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #F84941;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    min-width: 75px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
 }
 
 .spacer {
