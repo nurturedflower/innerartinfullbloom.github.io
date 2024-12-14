@@ -368,6 +368,28 @@ input:not(:focus):not(:placeholder-shown):invalid {
     border: 2px solid red;
 }
 
+footer #social-media .button {
+    font-family: "Patrick Hand", serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    color: #f8e7d1;
+    background-color: #F84941;
+    padding: 18px;
+    margin: 18px;
+    border-radius: 10px;
+}
+
+footer #social-media .button a {
+    text-decoration: none;
+    color: #f8e7d1;
+}
+
+#footer #social-media .button a:hover {
+    background-color: #ac352e;
+}
+
 .spacer {
     height: 1vh;
 }
