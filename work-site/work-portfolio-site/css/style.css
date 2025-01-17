@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    background-color: #f8e7d1;
+    background-color: #FFFFFF;
 }
 
 #navbar {
@@ -18,17 +18,17 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
-    background-color: #EDBEA6;
+    background-color: #ef849d;
     display: flex;
     align-items: center;
-    border-bottom: 5px solid #ac6846;
+    border-bottom: 5px solid #944458;
 }
 
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: #F84941;
-    padding: 43px 32px;
+    color: #FFFFFF;
+    padding: 44px 32px;
 }
 
 #navbar #logo {
@@ -42,7 +42,7 @@ body {
 }
 
 #navbar a:hover {
-    background-color: #f8e7d1;
+    background-color: #ad4e65;
     margin: 0px;
 }
 
@@ -69,13 +69,13 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: #f8e7d1;
+    background-color: #ef849d;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #f8d6c5;
+    background: #ad4e65;
 }
 
 #hero {
@@ -86,7 +86,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid #ac6846;
+    border-bottom: 5px solid #944458;
 }
 
 #hero .hero-content {
@@ -99,8 +99,8 @@ body {
 
 #hero a {
     display: inline-block;
-    background-color: #F84941;
-    color: #f8e7d1;
+    background-color: #ef849d;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 22px;
     margin: 5vh 2vw 10vh;
@@ -108,7 +108,7 @@ body {
 }
 
 #hero a:hover {
-    background-color: #ac352e;
+    background-color: #ad4e65;
 }
 
 .single-column {
@@ -118,12 +118,12 @@ body {
 }
 
 #main-section {
-    background-color: #EDBEA6;
+    background-color: #fef2dd;
     padding: 48px;
     margin-top: 12px;
     margin-bottom: 12px;
-    border-top: 5px solid #ac6846;
-    border-bottom: 5px solid #ac6846;
+    border-top: 5px solid #944458;
+    border-bottom: 5px solid #944458;
 }
 
 .side-by-side {
@@ -166,14 +166,14 @@ body {
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #F84941;
-    color: #f8e7d1;
+    background-color: #ef849d;
+    color: #ffffff;
     padding: 18px 16px;
     border-radius: 18px;
 }
 
 .side-by-side .text-container a:hover {
-    background-color: #ac352e;
+    background-color: #ad4e65;
 }
 
 .center-column {
@@ -395,15 +395,15 @@ footer #social-media .button a {
 }
 
 #footer {
-    background-color: #EDBEA6;
+    background-color: #ef849d;
     padding: 12px;
-    border-top: 5px solid #ac6846;
-    border-bottom: 5px solid #ac6846;
+    border-top: 5px solid #944458;
+    border-bottom: 5px solid #944458;
 }
 
 #footer a {
     text-decoration: none;
-    color: #F84941;
+    color: #ffffff;
 }
 
 #footer-navbar {
