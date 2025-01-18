@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #FEF2DD;
 }
 
 #navbar {
@@ -118,10 +118,10 @@ body {
 }
 
 #main-section {
-    background-color: #fef2dd;
+    background-color: #ffd3de;
     padding: 48px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 8px;
+    margin-bottom: 0px;
     border-top: 5px solid #944458;
     border-bottom: 5px solid #944458;
 }
@@ -142,6 +142,7 @@ body {
     font-family: "Patrick Hand", serif;
     font-weight: 400;
     font-style: normal;
+    color: #604020;
 }
 
 .side-by-side .image-container img {
@@ -177,7 +178,7 @@ body {
 }
 
 .center-column {
-    background-color: #EDBEA6;
+    background-color: #ffaabf;
     width: 500px;
     margin: 0px auto;
     padding: 0px 32px;
@@ -188,6 +189,7 @@ body {
     font-family: "Patrick Hand", serif;
     font-weight: bold;
     font-style: normal;
+    color: #604020;
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -208,6 +210,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 18px;
+    color: #604020;
     text-align: center;
     margin-bottom: 18px;
     padding-bottom: 18px;
@@ -224,6 +227,7 @@ body {
     font-weight: bold;
     font-style: normal;
     font-size: 38px;
+    color: #604020;
 }
 
 #layout h3 {
@@ -231,6 +235,7 @@ body {
     font-weight: bolder;
     font-style: normal;
     font-size: 24px;
+    color: #604020;
 }
 
 #layout p {
@@ -238,6 +243,42 @@ body {
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+    color: #604020;
+}
+
+#email-button {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ef849d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.email-button:hover {
+    background-color: #ad4e65;
+}
+
+#center-column {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center-column .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#center-column .image-container img {
+    width: 600px;
+    padding: 24px 24px;
 }
 
 .gallery {
@@ -270,14 +311,14 @@ body {
     font-style: normal;
     text-decoration: none;
     display: inline-block;
-    color: #f8e7d1;
-    background-color: #F84941;
+    color: #ffffff;
+    background-color: #ef849d;
     padding: 18px;
     border-radius: 10px;
 }
 
 .web-dev-gallery a:hover {
-    background-color: #ac352e;
+    background-color: #ad4e65;
 }
 
 .web-dev-gallery img {
@@ -285,11 +326,11 @@ body {
 }
 
 #card-section {
-    background-color: #EDBEA6;
+    background-color: #ffd3de;
     color: white;
     padding: 24px;
-    border-top: 5px solid #ac6846;
-    border-bottom: 5px solid #ac6846;
+    border-top: 5px solid #b1576e;
+    border-bottom: 5px solid #b1576e;
 }
 
 .card-container {
@@ -299,7 +340,7 @@ body {
 
 .card {
     flex: 1;
-    border: 5px solid #ac6846;
+    border: 5px solid #b1576e;
     padding: 32px;
     text-align: center;
     margin: 24px;
@@ -310,6 +351,7 @@ body {
     font-weight: bolder;
     font-style: normal;
     font-size: 24px;
+    color: #604020;
     margin: 0px;
 }
 
@@ -318,6 +360,7 @@ body {
     font-optical-sizing: auto;
     font-weight: normal;
     font-size: 16px;
+    color: #604020;
     margin: 24px 0px 0px;
 }
 
@@ -328,9 +371,9 @@ body {
 }
 
 form {
-    background-color: #EDBEA6;
+    background-color: #ffd3de;
     padding: 36px;
-    border: 2px solid #ac6846;
+    border: 2px solid #965a69;
     border-radius: 10px;
 }
 
@@ -356,8 +399,8 @@ textarea {
 
 input[type=submit] {
     width: auto;
-    background-color: #F84941;
-    color: white;
+    background-color: #ef849d;
+    color: #ffffff;
     border: 0;
     border-radius: 10px;
     min-width: 75px;
@@ -374,8 +417,8 @@ footer #social-media .button {
     font-style: normal;
     text-decoration: none;
     display: inline-block;
-    color: #f8e7d1;
-    background-color: #F84941;
+    color: #ffffff;
+    background-color: #ef849d;
     padding: 18px;
     margin: 18px;
     border-radius: 10px;
@@ -383,11 +426,11 @@ footer #social-media .button {
 
 footer #social-media .button a {
     text-decoration: none;
-    color: #f8e7d1;
+    color: #ffffff;
 }
 
-#footer #social-media .button a:hover {
-    background-color: #ac352e;
+footer #social-media .button:hover {
+    background-color: #ad4e65;
 }
 
 .spacer {
