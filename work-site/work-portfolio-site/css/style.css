@@ -265,20 +265,18 @@ body {
     background-color: #ad4e65;
 }
 
-#center-column {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#center-column .image-container {
+.basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 32px;
+    gap: 24px;
+    margin: 45px;
+    border: 10px solid #d07f93;
+    background-color: #ffd3de;
 }
 
-#center-column .image-container img {
-    width: 600px;
-    padding: 24px 24px;
+.basic-grid-gallery img {
+    width: 100%;
 }
 
 .gallery {
